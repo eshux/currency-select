@@ -1,0 +1,72 @@
+.box {
+    padding: 5px 15px 5px 0;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    min-width: 90px;
+    border: 1px solid rgb(201, 201, 201);
+    margin: 8px 5px;
+    position: relative;
+    color: rgb(29, 76, 120);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.box:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.box:focus{
+    outline: none;
+}
+
+.box--upper {
+    padding: 7px 0;
+    justify-content: center;
+    text-transform: lowercase;
+    color: black;
+    font-size: 14px;
+    border-radius: 3px;
+    border:none;
+    background-color: rgb(229, 229, 229);
+}
+
+.box--upper:hover {
+    background-color: rgb(229, 229, 229);
+}
+
+.active{
+    background-color: white;
+}
+
+.active:hover{
+    background-color: white;
+}
+
+.button-close{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    background-color: rgb(27, 27, 27);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
+.button-close:hover{
+    background-color: white;
+    color:black;
+    border: 2px solid  rgb(27, 27, 27);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-close:focus{
+    outline:none;
+}

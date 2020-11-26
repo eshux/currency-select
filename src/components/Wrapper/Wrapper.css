@@ -1,0 +1,21 @@
+
+.boxes {
+    padding: 13px;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: none;
+}
+
+.boxes--upper {
+    padding-bottom: 0;
+}
+
+.wrapper {
+    border: 1px solid gray;
+    width: 330px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 3px 3px 5px 0px rgb(212, 212, 212);
+}
